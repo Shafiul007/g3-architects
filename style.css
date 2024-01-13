@@ -1,0 +1,95 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    padding:50px 200px;
+    background: rgba(255, 144, 14, 0.10);
+}
+nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style-type: none;
+    margin-right: 20px;
+}
+nav h1{
+    font-size: 2.8rem;
+    font-family: 'Work Sans', sans-serif;
+}
+.banner{
+    text-align: center;
+    justify-content: center;
+}
+.banner .banner-content h1{
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+.banner .banner-content p{
+    color: rgb(49, 49, 49);
+    text-align: center;
+}
+.banner .banner-content{
+    width: 80%;
+    margin:0 auto;
+    margin-bottom:5px;
+}
+.btn{
+    font-size: 1.25rem;
+    color: aliceblue;
+    border:0px;
+    background-color:#FF900E;
+    padding:10px;
+    border-radius:5px;
+    font-weight: 600;
+    cursor: pointer;
+   
+}
+.btn:hover{
+    background-color: cyan;
+    color: crimson;
+}
+.banner img{
+    margin-top: 15px;
+    width: 100%;
+}
+
+
+
+@media screen and (max-width:576px) {
+    header{
+        padding:5px 10px;
+    }
+    nav ul li{
+        margin-right: 8px;
+    }
+    nav h1{
+        font-size: 1.25rem;
+    }
+    nav ul li a{
+        font-size: 0.7rem;
+    }
+    .btn{
+        font-size:1rem;
+    }
+}
+@media screen and (min-width:577px) and (max-width:960px) {
+    header{
+        padding:25px 100px;
+        background: rgba(255, 144, 14, 0.10);
+    }
+    nav h1{
+        font-size: 2rem;
+    }
+}
