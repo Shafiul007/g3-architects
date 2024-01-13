@@ -385,4 +385,11 @@ footer{
         width: 90%;
         padding-right: 50px;
     }
+    .card .detail{
+        padding: 8px;
+        width: 21%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
 }
